@@ -28,7 +28,7 @@ function footer() {
                 <p>Community Centre</p>
             </div>
 
-            <div className="space-y-4 text-sm text-gray-800">
+            <div className="space-y-4 text-xs text-gray-800">
                 <h5 className="font-bold">Support</h5>
                 <p>Help Centre</p>
                 <p>Cancelleation Options</p>
