@@ -7,7 +7,7 @@ import {SearchIcon,GlobeAltIcon,
 import { useState } from "react";
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
-import { DateRangePicker } from 'react-date-range';
+import { DateRange } from 'react-date-range';
 import { useRouter } from "next/dist/client/router";
 
 
@@ -90,7 +90,7 @@ function Header({placeholder}) {
             </div>
             {searchInput && 
              <div className="flex flex-col col-span-3 mx-auto">
-                 <DateRangePicker ranges={[selectionRange]}
+                 <DateRange ranges={[selectionRange]}
                   minDate={new Date()}
                   rangeColors={["#FD5B61"]}
                   onChange={handleSelect}
