@@ -13,4 +13,5 @@ function MediumCard({ img, title }) {
   );
 }
 
+
 export default MediumCard;
